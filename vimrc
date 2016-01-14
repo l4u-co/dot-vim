@@ -28,3 +28,5 @@ inoremap <C-H> <ESC><C-W><C-H>
 set fileformats=unix
 "status line, including branch name from fugitive
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+"allow backspacing over everything in insert mode (needed on MAC)
+set backspace=indent,eol,start
