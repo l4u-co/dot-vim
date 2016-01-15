@@ -30,3 +30,9 @@ set fileformats=unix
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 "allow backspacing over everything in insert mode (needed on MAC)
 set backspace=indent,eol,start
+"Highlight current buffer
+augroup HighlightCurrent
+  autocmd!
+  autocmd WinEnter * set cul
+  autocmd WinLeave * set nocul
+augroup END
