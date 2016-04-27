@@ -38,3 +38,5 @@ augroup HighlightCurrent
   autocmd WinLeave * set nocul
 augroup END
 colorscheme Tomorrow-Night
+"Force Gdiff in vertical mode"
+set diffopt+=vertical
