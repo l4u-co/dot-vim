@@ -1,5 +1,9 @@
+set nocompatible      " We're running Vim, not Vi!
 syntax enable
 execute pathogen#infect()
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
 set number
 set relativenumber
 set tabstop=2
