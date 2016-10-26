@@ -12,6 +12,9 @@ set shiftwidth=2
 set autoindent
 set smartindent
 set colorcolumn=91
+"Split window more like tmux
+nnoremap <C-w>" <C-w>s
+nnoremap <C-w>% <C-w>v
 "Split navigation using h/j/k/l
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
