@@ -46,4 +46,4 @@ augroup HighlightCurrent
 augroup END
 colorscheme Tomorrow-Night
 "Force Gdiff in vertical mode"
-set diffopt+=vertical
+"set diffopt+=vertical"
