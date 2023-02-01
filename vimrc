@@ -33,8 +33,6 @@ inoremap <C-L> <ESC><C-W><C-L>
 inoremap <C-H> <ESC><C-W><C-H>
 "restrict fileformat to unix, to avoid problems in git repositories
 set fileformats=unix
-"status line, including branch name from fugitive
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 "allow backspacing over everything in insert mode (needed on MAC)
 set backspace=indent,eol,start
